@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  background-image: url(/src/images/slotopaint-gamedesign-background.jpg);
+  
+
+}
+
+#container {
+  padding: 30px;
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 50%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 3px 5px 5px black;
+}
+
+#dynamic-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+.btn-grid {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(38, 166, 91, 0.9);
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  
+  
+}
+
+.btn:hover {
+  background-color: rgba(38, 166, 91, 1.0);
+  
+  
+}
+
+#text {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 25px;
+  border-bottom: 1px rgba(38, 166, 91, 1.0) solid;
+  
+}
+
+
+h1 {
+  color: rgba(38, 166, 91);
+  font-size: 50px;
+}
+
+input {
+  font-size: 18px;
+  
+}
+
+.imgDiv {
+  width: 500px;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 30px;
+  font-style: italic;
+}
